@@ -1,0 +1,77 @@
+.shadow{
+}
+.shadow:before,
+.shadow:after{
+	content: '';
+	position: absolute;
+	z-index: -1;
+	box-shadow: 0 0 10px rgba(0,0,0,0.80);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 1px;
+}
+.container4 {
+   margin-left:auto;
+   margin-right:auto;
+}
+.col-3 {
+  height: 350px;
+  width: 300px; /* Можно задать любую другую ширину блока */
+  background: #02437d;
+  margin-top: 50px;
+  border-width: 10px;
+  border-style:outset;
+
+}
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}	
+.tiptext
+{
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px; 
+	text-align:justify;
+	hyphens: auto;
+	color: #02437d;
+}
+.cd-fixed-background .cd-content::after {
+	content: '';
+	display: block;
+	width: 100%;
+	padding: 60% 0;
+	margin: 2em auto 0;
+}
+
+html, body {
+height: 100%;
+}
+.cd-fixed-background {
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+.cd-fixed-background.img-1 {
+background-image: url("bg.jpg");
+}
+.cd-fixed-background.img-2 {
+background-image: url("mag.jpg");
+}
+.cd-fixed-background.img-3 {
+background-image: url("STAR0055.jpg");
+}
+.cd-fixed-background.img-4 {
+background-image: url("inftel.jpg");
+}
+.cd-fixed-background.img-5 {
+background-image: url("scale_1200.jpg");
+}
